@@ -1,0 +1,55 @@
+@font-face {
+    src: url("DIGITALDREAM.ttf");
+    font-family: DIGITALDREAM;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    color: #F94F6D;
+    padding: 0 40px;
+}
+
+h3 {
+    color: white;
+    font-size: 36px;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+.container {
+    background-color: #1B244A;
+    width: 500px;
+    height: 260px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    margin: auto;
+}
+
+#count-h, #count-g {
+        text-align: center;
+        background-color: black;
+        font-size: 68px;
+        margin: 0;
+        border-radius: 6px;
+        font-family: DIGITALDREAM;
+        padding: 5px;
+}
+
+#buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#count-1, #count-2, #count-3 {
+    font-family: DIGITALDREAM;
+    background-color: #1B244A;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 6px;
+    padding: 8px 11px;
+}
