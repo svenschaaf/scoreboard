@@ -1,29 +1,33 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <div class="container">
-            <div class="home">
-                <h3>HOME</h3>
-                <h1 id="count-h"></h1>
-                <div id="buttons">
-                    <button id="count-1" onclick="countHome1()">+1</button>
-                    <button id="count-2" onclick="countHome2()">+2</button>
-                    <button id="count-3" onclick="countHome3()">+3</button>
-                </div>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="home">
+            <h3>HOME</h3>
+            <h1 id="count-h"></h1>
+            <div id="buttons">
+                <button id="count-1" onclick="countHome1()">+1</button>
+                <button id="count-2" onclick="countHome2()">+2</button>
+                <button id="count-3" onclick="countHome3()">+3</button>
             </div>
-            <div class="guest">
-                <h3>GUEST</h3>
-                <h1 id=count-g></h1>
-                <div id="buttons">
-                    <button id="count-1" onclick="countGuest1()">+1</button>
-                    <button id="count-2" onclick="countGuest2()">+2</button>
-                    <button id="count-3" onclick="countGuest3()">+3</button>
-                </div>
-            </div>
-            <button id=reset-btn onclick="reset()">RESET</button>
         </div>
-        <script src="index.js"></script>
-    </body>
+        <div class="guest">
+            <h3>AWAY</h3>
+            <h1 id=count-g></h1>
+            <div id="buttons">
+                <button id="count-1" onclick="countGuest1()">+1</button>
+                <button id="count-2" onclick="countGuest2()">+2</button>
+                <button id="count-3" onclick="countGuest3()">+3</button>
+            </div>
+        </div>
+        <button id=reset-btn onclick="reset()">RESET</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+
 </html>
